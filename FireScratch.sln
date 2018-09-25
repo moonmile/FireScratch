@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireScratch.Client", "FireScratch.Client\FireScratch.Client.csproj", "{C670173C-1EE8-4287-821F-C730C9CCF04E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FireScratch", "FireScratch\FireScratch.fsproj", "{A272E619-8D7E-421E-B9DD-7D122113DD58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C670173C-1EE8-4287-821F-C730C9CCF04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C670173C-1EE8-4287-821F-C730C9CCF04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C670173C-1EE8-4287-821F-C730C9CCF04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C670173C-1EE8-4287-821F-C730C9CCF04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A272E619-8D7E-421E-B9DD-7D122113DD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A272E619-8D7E-421E-B9DD-7D122113DD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A272E619-8D7E-421E-B9DD-7D122113DD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A272E619-8D7E-421E-B9DD-7D122113DD58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E53995D-BAB7-428A-BEE3-6A533AB35CC1}
+	EndGlobalSection
+EndGlobal

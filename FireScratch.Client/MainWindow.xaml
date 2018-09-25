@@ -1,0 +1,47 @@
+﻿<Window x:Class="FireScratch.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FireScratch.Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="メールアドレス" Grid.Row="1" />
+        <TextBlock Text="パスワード" Grid.Row="2" />
+        <TextBlock Text="メッセージ" Grid.Row="5" />
+        <TextBlock Text="データ" Grid.Row="6" />
+
+        <TextBox x:Name="mail" Text="masuda@moonmile.net" Grid.Column="1" Grid.Row="1" />
+        <PasswordBox x:Name="passwd" Password="tomoaki"  Grid.Column="1" Grid.Row="2" />
+        <Button Content="ユーザ作成" Click="clickCreateUser" Grid.Column="1" Grid.Row="3" />
+        <Button Content="ログイン" Click="clickLogin" Grid.Column="1" Grid.Row="4" />
+        <TextBlock x:Name="msg" Text="" Grid.Column="1" Grid.Row="5"/>
+
+        <TextBox x:Name="data1" Text="" Grid.Column="1" Grid.Row="6"/>
+        <Button Content="保存" Click="clickSave" Grid.Column="1" Grid.Row="7" />
+        <Button Content="取得" Click="clickLoad" Grid.Column="1" Grid.Row="8" />
+        
+        <TextBlock Text="リアルタイム監視" Grid.Column="0" Grid.Row="9"/>
+        <TextBlock x:Name="reailtime" Text="" Grid.Column="1" Grid.Row="9"/>
+        
+    </Grid>
+</Window>

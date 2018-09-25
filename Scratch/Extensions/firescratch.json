@@ -1,0 +1,23 @@
+﻿{
+  "extensionName": "Firebase Scratch",
+  "extensionPort": 5411,
+  "url": "https://github.com/moonmile/firescratch",
+  "blockSpecs": [
+    [ " ", "%s と言う", "sayall", "hello world." ],
+    [ " ", "%s が %s さんへ %s と言う", "say", "me", "you", "hello" ],
+    [ " ", "%s を X座標 %d にする", "movex", "me", 0 ],
+    [ " ", "%s を Y座標 %d にする", "movey", "me", 0 ],
+    [ " ", "%s を X座標 %d、 Y座標 %d にする", "movexy", "me", 0, 0 ],
+
+    [ "-" ],
+    [ "r", "自分", "from" ],
+    [ "r", "相手", "to" ],
+    [ "r", "X座標", "x" ],
+    [ "r", "Y座標", "y" ],
+    [ "r", "メッセージ", "text" ],
+    [ "-" ]
+  ],
+  "menus": {
+    "OnOffValues": ["ON", "OFF"]
+  }
+}
