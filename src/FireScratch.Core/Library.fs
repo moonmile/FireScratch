@@ -11,19 +11,12 @@ open System.Threading.Tasks
 
 
 module FireScratch =
-#if false
     let mutable apikey = "<firebase api key>"
     let mutable databaseURL = "<firebase databaseURL>"
     let mutable DatabasePath = "scratch/firecat"
     let mutable email = "<e-mail>"
     let mutable passwd = "<password>"
-#else
-    let mutable apikey = "AIzaSyDw4L3xZUY2_bMzyUFazJVY8-ttMir2qik"
-    let mutable databaseURL = "https://fire-scratch.firebaseio.com"
-    let mutable DatabasePath = "scratch/firecat"
-    let mutable email = "masuda@moonmile.net"
-    let mutable passwd = "tomoaki"
-#endif
+
     let configPath = AppDomain.CurrentDomain.BaseDirectory + "FireScratch.config"
 
     type Config() =
