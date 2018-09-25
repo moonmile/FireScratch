@@ -1,4 +1,4 @@
-# NetScrattino
+# FireScratch
 
 FireScratch は Google Firebase の Realtime Dabase を使って Scratch 同士を相互通信するためのサーバーです。
 
