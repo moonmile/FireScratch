@@ -1,0 +1,23 @@
+﻿{
+  "extensionName": "Firebase Scratch",
+  "extensionPort": 5411,
+  "url": "https://github.com/moonmile/firescratch",
+  "blockSpecs": [
+    [ " ", "Say %s to all", "sayall", "hello world." ],
+    [ " ", "%s say to %s '%s'", "say", "me", "you", "hello" ],
+    [ " ", "set %s 's x to %d", "movex", "me", 0 ],
+    [ " ", "set %s 's y to %d", "movey", "me", 0 ],
+    [ " ", "go to %s 's x: %d y: %d", "movexy", "me", 0, 0 ],
+
+    [ "-" ],
+    [ "r", "me", "from" ],
+    [ "r", "you", "to" ],
+    [ "r", "x position", "x" ],
+    [ "r", "y position", "y" ],
+    [ "r", "message", "text" ],
+    [ "-" ]
+  ],
+  "menus": {
+    "OnOffValues": ["ON", "OFF"]
+  }
+}
