@@ -1,0 +1,42 @@
+﻿<Window x:Class="FireScratch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FireScratch"
+        mc:Ignorable="d"
+        Title="FireScratch" Height="300" Width="400"
+        FontSize="16"
+        >
+    <Grid Margin="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="ApiKey"        Grid.Row="0"/>
+        <TextBlock Text="DatabaseURL" Grid.Row="1"/>
+        <TextBlock Text="DatabasePath" Grid.Row="2"/>
+        <TextBlock Text="Email" Grid.Row="3"/>
+        <TextBlock Text="Password" Grid.Row="4"/>
+
+        <TextBox Text="{Binding ApiKey}" Grid.Column="1" Grid.Row="0" />
+        <TextBox Text="{Binding DatabaseURL}" Grid.Column="1" Grid.Row="1" />
+        <TextBox Text="{Binding DatabasePath}" Grid.Column="1" Grid.Row="2" />
+        <TextBox Text="{Binding Email}" Grid.Column="1" Grid.Row="3" />
+        <PasswordBox x:Name="pw" Password="" Grid.Column="1" Grid.Row="4" />
+
+        <Button x:Name="btnRun" Content="Run" Click="cllicRun"
+                Grid.Column="1" Grid.Row="6" Width="100" HorizontalAlignment="Right"/>
+
+    </Grid>
+</Window>
